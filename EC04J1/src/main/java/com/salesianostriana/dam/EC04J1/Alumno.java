@@ -19,15 +19,17 @@ public class Alumno {
     private String apellido1;
     private String apellido2;
     private Integer telefono;
+    private String email;
     @ManyToOne
     private Curso curso;
     @ManyToOne
     private Direccion direccion;
 
-    public Alumno(String nombre, String apellido1, String apellido2, Integer telefono) {
+    public Alumno(String nombre, String apellido1, String apellido2, Integer telefono, String email) {
         this.nombre = nombre;
         this.apellido1 = apellido1;
         this.apellido2 = apellido2;
         this.telefono = telefono;
+        this.email = email;
     }
 }

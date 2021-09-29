@@ -1,4 +1,4 @@
-package com.salesianostriana.dam.EC04FranciscoGallegoGuillermoDelacruz.dto;
+package com.salesianostriana.dam.EC04J1.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
